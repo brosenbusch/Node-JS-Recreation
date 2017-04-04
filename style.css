@@ -1,0 +1,29 @@
+body{
+    height: 1000px ;
+    width: 500px;
+}
+header, footer{
+    height: 50px;
+    width: inherit;
+    background-color: grey;
+}
+#first{
+    height: 300px;
+    width: 500px;
+    border: solid green 30px;
+}
+#second{
+    height: 600px;
+    width: inherit;
+}
+p{
+    font-size: 24px;
+    margin: 10px;
+}
+#first div{
+    width: 100%;
+    height: auto;
+}
+#first div img{
+    width: inherit;
+}
