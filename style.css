@@ -1,16 +1,29 @@
-body{
-    height: 1000px ;
-    width: 500px;
-}
 header, footer{
-    height: 50px;
+    height: 150px;
     width: inherit;
-    background-color: grey;
+    background-color: black;
 }
+header div{
+  height: 75px;
+  width: 10%;
+  margin: 0 auto;
+  border-top: solid black 8px;
+}
+header div img{
+  height: inherit;
+  width: auto;
+}
+
 #first{
-    height: 300px;
-    width: 500px;
-    border: solid green 30px;
+    width: inherit;
+    border: solid white 15px;
+}
+#first div{
+    width: 100%;
+    height: auto;
+}
+#first div img{
+    width: inherit;
 }
 #second{
     height: 600px;
@@ -19,11 +32,5 @@ header, footer{
 p{
     font-size: 24px;
     margin: 10px;
-}
-#first div{
-    width: 100%;
-    height: auto;
-}
-#first div img{
-    width: inherit;
+    font-family: arial;
 }
