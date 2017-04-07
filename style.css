@@ -1,5 +1,5 @@
 header, footer{
-    height: 150px;
+    height: 125px;
     width: inherit;
     background-color: black;
 }
@@ -16,13 +16,20 @@ header div img{
 
 #first{
     width: inherit;
-    border: solid white 15px;
 }
 #first div{
-    width: 100%;
+    width: inherit;
     height: auto;
+    background-image: url("https://nodejs.org/static/images/interactive/background.jpg");
 }
-#first div img{
+#first div div{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#first div div img{
     width: inherit;
 }
 #second{
