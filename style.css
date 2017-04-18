@@ -18,6 +18,9 @@ header nav{
   margin-top: 10px;
   margin-left: 30px;
 }
+header nav:first-child{
+    border-left: 0px solid white;
+}
 header nav a{
   font-family: calibri;
   font-size: 14px;
@@ -31,19 +34,16 @@ header nav a{
 }
 #first{
     width: inherit;
-}
-#first div{
-    width: inherit;
-    height: auto;
+    height: 280px;
     background-image: url("https://nodejs.org/static/images/interactive/background.jpg");
 }
-#first div div{
-    width: 90%;
+
+#first div{
+    width: 60%;
     height: inherit;
     margin: 0 auto;
-}
-#first div div img{
-    border: solid green 20px;
+    border: solid transparent 20px;
+    background-image: url("https://nodejs.org/static/images/interactive/nodejs-interactive.png");
 }
 #second{
     height: 400px;
@@ -80,7 +80,7 @@ h1{
     float: left;
 }
 #second div div #left div{
-    width: 70%;
+    width: 60%;
     height: 40%;
     background-color: green;
     float: right;
@@ -88,7 +88,7 @@ h1{
     margin-right: 15px;
 }
 #second div div #right div{
-    width: 70%;
+    width: 60%;
     height: 40%;
     background-color: green;
     float: left;
