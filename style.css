@@ -39,11 +39,12 @@ header nav a{
 }
 
 #first div{
-    width: 60%;
-    height: inherit;
+    width: 65%;
+    height:240px;
     margin: 0 auto;
     border: solid transparent 20px;
     background-image: url("https://nodejs.org/static/images/interactive/nodejs-interactive.png");
+    
 }
 #second{
     height: 400px;
