@@ -18,10 +18,7 @@ header nav{
   margin-top: 10px;
   margin-left: 30px;
 }
-header nav:first-child{
-    border-left: 0px solid white;
-}
-header nav a{
+.links{
   font-family: calibri;
   font-size: 14px;
   color: white;
@@ -30,7 +27,15 @@ header nav a{
   border-left: solid white 1px;
   padding-left: 20px;
   padding-right: 15px;
-
+}
+#home{
+  font-family: calibri;
+  font-size: 14px;
+  color: white;
+  opacity: .8;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 15px;
 }
 #first{
     width: inherit;
@@ -44,7 +49,7 @@ header nav a{
     margin: 0 auto;
     border: solid transparent 20px;
     background-image: url("https://nodejs.org/static/images/interactive/nodejs-interactive.png");
-    
+
 }
 #second{
     height: 400px;
